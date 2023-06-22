@@ -1,32 +1,23 @@
-# Prerequisites
-*.d
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main() {
+    string audioFile = "audio.wav";
+    int channels = 8;
+    int sampleRate = 48000;
+    int bitDepth = 24;
 
-# Precompiled Headers
-*.gch
-*.pch
+    // Open audio file
+    // ...
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+    // Set up audio device for 7.1 surround sound
+    // ...
 
-# Fortran module files
-*.mod
-*.smod
+    // Play audio
+    // ...
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    return 0;
+}
+```
